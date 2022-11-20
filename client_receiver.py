@@ -6,11 +6,11 @@ import socket
 
  
 
-msgFromClient       = "Hello UDP Server"
+msgFromClient       = "hello, i'm the client"
 
 bytesToSend         = str.encode(msgFromClient)
 
-serverAddressPort   = ("192.168.1.127", 8888)
+serverAddressPort   = ("*****SERVER-ID****", ***SERVER-PORT****)
 
 bufferSize          = 1024
 

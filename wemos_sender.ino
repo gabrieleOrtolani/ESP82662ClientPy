@@ -6,8 +6,8 @@
 #include <WiFiUdp.h>
 
 #ifndef STASSID
-#define STASSID "FASTWEB-1-EDWWABMyi4Fl"
-#define STAPSK  "3MGr9bSCD2"
+#define STASSID "your-ssid"
+#define STAPSK  "lan-pws"
 #endif
 
 unsigned int localPort = 8888;      // local port to listen on
